@@ -1,11 +1,15 @@
-import './App.css';
+import "./App.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import Ticket from "./components/Ticket/Ticket";
 
 function App() {
   return (
-    <div className="App">
-      This is how the first page looks like....
-
-    </div>
+    <>
+      <Header name="ALISHA" />
+      <Ticket/>
+      <Footer />
+    </>
   );
 }
 

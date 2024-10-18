@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .mainDiv {
+    // max-width: 800px;
+    // margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+    border-radius: 20px;
+  }
+  
+  .ticket-list {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ticket-item {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
+  .ticket-item h2 {
+    margin: 0 0 10px;
+  }
+  
+  .ticket-item button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ticket-item button:hover {
+    background-color: #218838;
+  }
+  
+  .cart {
+    width: 40%;
+    background: white;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+  }
+  
+  .cart h2 {
+    margin: 0 0 10px;
+  }
+
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cart .cartButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 8px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart button:hover {
+    background-color: #c82333;
+  }
+  
+  .cart .checkout:hover {
+    background-color: green;
+  }
+  
+  .cart .rightSide{
+    margin-right: 10px;
+  }
+
+  .cart h3 {
+    margin-top: 15px;
+  }
+  
